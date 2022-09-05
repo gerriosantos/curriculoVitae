@@ -113,22 +113,5 @@ bibliography_entries("packages.bib") %>%
 
 
 
-\newpage
-
-# Carta de Apresentação
-
-Meu nome é Gerrio Barbosa, sou um sobrevivente do sertão cearense, natural de Coreaú, porém residente no Bairro Quintino Cunha, Fortaleza-CE. Sou o quarto filho (de cinco irmãos) dos agricultores Cândido Barbosa e Maria de Jesus. Comecei a trabalhar aos 11 anos de idade como entregador, após algum tempo passei a trabalhar como pizzaiolo e garçom, sendo essas minhas profissões até os 23 anos de idade, além de vários "bicos" realizados ao longo dessa jornada, como a produção de eventos. Contudo, sempre fui dedicado aos estudos e a obter alto desempenho no colégio (sempre em escolas públicas), sendo isso pré-requisito para minha permanência no trabalho antes dos 18 anos de idade. 
-
-
-Minha formação acadêmica iniciou-se em Sobral-CE (cidade polo regional que fica a 50km de Coreaú-CE), no curso de ciências econômicas pela UFC e, posteriormente, cursei o mestrado de Economia Rural também na UFC, mas dessa vez na cidade de Fortaleza. No ano de 2017, final do mestrado, recebi uma das grandes oportunidades da minha vida, estudar na Fundação Getúlio Vargas (FGV-SP)  por um mês, no curso oferecido pelo Itaú Social de  Avaliação de Política Públicas e, apesar de vários fatores contra e do choque de realidade, eu conclui o curso com esforço máximo. Por último, o doutorado em economia aplicada na UFPB foi o destino certo para o amadurecimento e enorme ganho de aprendizagem como pesquisador e como pessoa.  
-
-
-No período de pandemia, eu era residente em João Pessoa-PB, no entanto, após o segundo semestre de 2020 regredi a Fortaleza para iniciar uma vida a dois com minha namorada Keyla Ribeiro, economista que conheci na graduação, e também terminar minha Tese de Doutorado a distância. Porém, já não tinha mais a bolsa da Capes (já havia utilizado os 48 meses), então por intermédio de um ex-professor assumi uma vaga de bolsista de pesquisa na Secretaria de Planejamento e Gestão do Estado. Em Fevereiro do presente ano defendi a Tese e comecei a buscar por seleções de pós-doutorado ou vagas de empregos que abrangessem minha área de pesquisa.
-
-Diante da relevância dos estudos raciais relacionados a outros temas como educação, pobreza e violência, sinto-me motivado para ajudar na construção de evidências sólidas que apoiem no desenho de políticas públicas qualificadas na erradicação das desigualdades, sobretudo as raciais. Portanto, além de ser um tema que tenho afinidade e experiências de causa, sou um jovem pesquisador com bastante disposição, resiliência e esforço, buscando ajudar pessoas com trajetórias similares a minha, as quais precisam ser 100 vezes mais esforçadas para balancear o peso da desigualdade.
-
-
-A música que retrata minha trajetória tem como compositor um conterrâneo que fez esse mesmo processo de migração buscando conquistar seus objetivos. Portanto, seremos
-[**_Apenas Um Rapaz Latino Americano_**](https://youtu.be/8VcZURSMetg), na voz de [**_Antônio Carlos Belchior_**](https://pt.wikipedia.org/wiki/Belchior#cite_note-trovador-2).
 
 
