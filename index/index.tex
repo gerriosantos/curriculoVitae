@@ -1,0 +1,263 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\colorlet{awesome}{awesome-red}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Gerrio}{Barbosa}
+
+\position{Pesquisador}
+\address{Rua Emília Gonçalves, nº 848b, apt 103, Fortaleza-CE}
+
+\mobile{(85) 98931-0682}
+\email{\href{mailto:gerriosantos@gmail.com}{\nolinkurl{gerriosantos@gmail.com}}}
+\homepage{lattes.cnpq.br/1075774312620393}
+\github{gerriosantos}
+\linkedin{gerrio-barbosa-b2476a5b}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {setembro 2022}
+    {Gerrio Barbosa~~~·~~~Curriculum Vitae}
+  {\thepage~ of \pageref{LastPage}~}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{curiosidades}{%
+\section{Curiosidades}\label{curiosidades}}
+
+\begin{itemize}
+\item
+  Sou autodeclarado de cor parda, natural da cidade de Coreaú-CE,
+  atualmente me considero do gênero masculino e tenho completos 33 anos
+  de idade.
+\item
+  Filho, neto, bisneto, etc\ldots{} de agricultores famíliares do sertão
+  semiárido nordestino.
+\item
+  Primeiro da minha família a se tornar Doutor, mas a segunda pessoa já
+  está no doutorado, minha irmã mais velha.
+\item
+  Apaixonado por One Piece.
+\end{itemize}
+
+\hypertarget{educauxe7uxe3o}{%
+\section{Educação}\label{educauxe7uxe3o}}
+
+\begin{cventries}
+    \cventry{Doutorado em Economia Aplicada}{Universidade Federal da Paraíba}{João Pessoa-PB}{2017-2022}{}\vspace{-4.0mm}
+    \cventry{Mestrado em Economia Rural}{Universidade Federal do Ceará}{Fortaleza-CE}{2015-2017}{}\vspace{-4.0mm}
+    \cventry{Graduação em Economia}{Universidade Federal do Ceará}{Sobral-CE}{2010-2014}{}\vspace{-4.0mm}
+    \cventry{Técnico em Pedagogia}{Escola Normal}{Coreaú-CE}{2006-2007}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{educauxe7uxe3o-complementar}{%
+\section{Educação Complementar}\label{educauxe7uxe3o-complementar}}
+
+\begin{cventries}
+    \cventry{Itaú Social (FGV-SP)}{Avaliação de Projetos Sociais e Políticas Publicas}{São Paulo-SP}{2017}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{experiuxeancias}{%
+\section{Experiências}\label{experiuxeancias}}
+
+\begin{cventries}
+    \cventry{Seplag-CE}{Pesquisador}{2021--2022}{Fortaleza-CE}{}\vspace{-4.0mm}
+    \cventry{Fiocruz-RJ}{Pesquisador}{2021--2021}{Rio de Janeiro-RJ}{}\vspace{-4.0mm}
+    \cventry{Lab. de Econ. e Modelagem Aplicada - UFPB}{Bolsista em Análise de Dados}{2018--2020}{João Pessoa-PB}{}\vspace{-4.0mm}
+    \cventry{Pref. Municipal de Coreaú}{Pregoeiro}{2013--2015}{Coreaú-CE}{}\vspace{-4.0mm}
+    \cventry{IBGE}{Recenseador}{2010--2010}{Coreaú-CE}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{habilidades}{%
+\section{Habilidades}\label{habilidades}}
+
+\begin{cventries}
+    \cventry{}{R/Rstudio}{}{Fluência Intermediária a Avançada}{}\vspace{-4.0mm}
+    \cventry{}{Python}{}{Fluência}{}\vspace{-4.0mm}
+    \cventry{}{STATA}{}{Fluência}{}\vspace{-4.0mm}
+    \cventry{}{SQL}{}{Básico}{}\vspace{-4.0mm}
+    \cventry{}{LATEX/Overleaf}{}{Fluência}{}\vspace{-4.0mm}
+    \cventry{}{Git e GitHub/GitLab}{}{Fluência}{}\vspace{-4.0mm}
+    \cventry{}{Excel e Calculadora do LibreOffice}{}{Fluência}{}\vspace{-4.0mm}
+    \cventry{}{Inglês}{}{Compresensão Razoável; Falo Pouco, Leio Bem, Escrita Razoável}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{pruxeamios}{%
+\section{Prêmios}\label{pruxeamios}}
+
+\begin{cventries}
+    \cventry{Efetividade dos incentivos fiscais à indústria sobre o volume de empregos e a massa salarial: um estudo do Fundo de Apoio ao Desenvolvimento Industrial da Paraíba}{Prêmio Werner Baer de Economia Regional (BNB) - Categoria Artigo, 1º Lugar}{}{2018}{}\vspace{-4.0mm}
+    \cventry{Situação Fiscal Local e a Resposta à Pandemia da COVID-19: Evidências para os municípios brasileiros}{XXVI Prêmio Tesouro Nacional 2021 - categoria Monografias, 2º lugar}{}{2021}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{outras-informauxe7uxf5es}{%
+\section{Outras Informações}\label{outras-informauxe7uxf5es}}
+
+\hypertarget{competuxeancias-em-coleta-e-anuxe1lises-de-dados}{%
+\subsection{\texorpdfstring{\textbf{Competências em Coleta e Análises de
+Dados}}{Competências em Coleta e Análises de Dados}}\label{competuxeancias-em-coleta-e-anuxe1lises-de-dados}}
+
+\begin{itemize}
+\item
+  Não ser apenas usuário da linguagem R, mas programar de fato e
+  usar/estudar os fundamentos de lógica de programação, com foco em
+  resolver problemas e desenhar estratégias.
+\item
+  Utilizar a programação funcional (empacotamento de funções),
+  paralelismo e conseguir atuar com velocidade e agilidade mesmo quando
+  o desafio é uma base de dados do tipo de fluxo (\emph{big data}).
+\item
+  Automatizar e tornar os processos eficientes do ponto de vista da
+  linguagem e da pesquisa. Ou seja, usar menos tempo na coleta/limpeza
+  das bases de dados e mais tempo na análise dos resultados. Além de
+  usar a linguagem de forma colaborativa e reprodutível para todo o
+  grupo inserido no contexto da pesquisa.
+\item
+  Em relação a análise dos dados, além da capacidade básica de percorrer
+  a literatura inerente ao tema, apresento também a capacidade e
+  experiência de quem pesquisa em campo de fato, fora do conforto da
+  Universidade ou de escritórios.
+\end{itemize}
+
+\hypertarget{base-de-dados-trabalhadas}{%
+\subsection{\texorpdfstring{\textbf{Base de Dados
+Trabalhadas}}{Base de Dados Trabalhadas}}\label{base-de-dados-trabalhadas}}
+
+Curriculo Lattes, Auxílio Emergencial, Dados PDFs (Fecop-CE), Dados de
+Pesquisas Primárias (Fruticultura em Petrolina e Pesquisa Interna com
+Prefeitos Cearenses), Indicadores Educacionais e Microdados do
+INEP(Censo Escolar, Prova Brasil, Enem, ANA), Microdados do SUS (SIM,
+SINASC, SRAG, CNES, SIH, SIA), RAIS, Brasil.io (Dados Covid), Sesa-Ceara
+(Dados Covid), IBGE (PNAD, PNS, SIDRA, Censo Agropecuário, Censo
+Demográfico), IPEA, Microdados da ANATEL (backhaul, densidade de
+municípios, banda larga), Siga Brasil (Emendas Parlamentares), SIOPS,
+Repasses do FNS, FINBRA, TSE, Mobilidade Urbana (google e apple), Banco
+Mundial, FAO.
+
+\hypertarget{publicauxe7uxf5es}{%
+\subsection{\texorpdfstring{\textbf{Publicações}}{Publicações}}\label{publicauxe7uxf5es}}
+
+\hypertarget{bibliography}{}
+\leavevmode\vadjust pre{\hypertarget{ref-barbosa2023}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Barbosa, G. S., Martins, E. C., Silva, V. H. M. C.,
+Souza, H. G., \& Barbosa, G. S. (2023). Escolas em tempo integral e
+desempenho no enem: Uma avaliação de impacto para o estado do ceará.
+\emph{Economia Aplicada}, \emph{27}(04).}
+
+\leavevmode\vadjust pre{\hypertarget{ref-barbosa2022situaccao}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Barbosa, R. B., Barbosa, G. S., Nojosa, G. M., \& Sousa,
+D. T. de. (2022). Situação fiscal local e a resposta à pandemia da
+COVID-19: Evidências para os municı́pios brasileiros. \emph{CADERNOS DE
+FINANÇAS PÚBLICAS}, \emph{22}(01).
+\url{https://publicacoes.tesouro.gov.br/index.php/cadernos/article/view/156/153}}
+
+
+\label{LastPage}~
+\end{document}

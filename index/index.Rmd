@@ -91,7 +91,10 @@ readr::read_rds('planilhas/premios.rds') |>
  
  - Automatizar e tornar os processos eficientes do ponto de vista da linguagem e da pesquisa. Ou seja, usar menos tempo na coleta/limpeza das bases de dados e mais tempo na análise dos resultados. Além de usar a linguagem de forma colaborativa e reprodutível para todo o grupo inserido no contexto da pesquisa.
  
+
  - Em relação a análise dos dados, além da capacidade básica de percorrer a literatura inerente ao tema, apresento também a capacidade e experiência de quem pesquisa em campo de fato, fora do conforto da Universidade ou de escritórios.
+ 
+
  
 ## **Base de Dados Trabalhadas**
 
@@ -108,10 +111,4 @@ Curriculo Lattes, Auxílio Emergencial, Dados PDFs (Fecop-CE), Dados de Pesquisa
 bibliography_entries("packages.bib") %>%
   arrange(desc(author$family), issued)
 ```
-
-
-
-
-
-
 
